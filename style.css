@@ -1,0 +1,95 @@
+body {
+    background-color: #212f3c;
+  }
+  
+  head {
+    background-color: #d35400;
+  }
+  .main {
+    text-indent: 10pt;
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-top: 10px;
+  }
+  .request {
+    text-align: center;
+    padding: 20px;
+    background-image: url(images/coffee3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  
+  .login {
+    text-align: right;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  h2 {
+    color: whitesmoke;
+  }
+  
+  .footer {
+    text-align: bottom;
+  }
+  
+  .inputtext {
+    border-radius: 5px;
+    border-color: whitesmoke;
+  }
+  
+  .LoginText {
+    border-radius: 5px;
+    border-color: whitesmoke;
+  }
+  
+  a {
+    color: red;
+    padding-right: 60px;
+  }
+  .link {
+    text-align: right;
+  }
+  
+  .button {
+    border-radius: 5px;
+  }
+  
+  .ErrorBorder{
+    border-color:red;
+  }
+  
+  .invalid {
+      box-shadow: 0 0 5px 1px red;
+    border-color:red;
+    color:red;
+  }
+
+  .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  .tooltiptext:after{
+    position:absolute;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  
